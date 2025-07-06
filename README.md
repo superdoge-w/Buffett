@@ -254,11 +254,11 @@ python main.py chat
 ```
 
 支持以下功能：
-- 🎯 **Prompt微调**：内置可修改的系统提示词
-- 📚 **Few Shot学习**：支持最多3个示例来微调模型行为
-- 💬 **实时流式对话**：支持流式输出和实时显示
-- 📝 **对话历史管理**：自动保存和管理对话上下文
-- 🔧 **配置管理**：可保存和加载对话配置
+- **Prompt微调**：内置可修改的系统提示词
+- **Few Shot学习**：支持最多3个示例来微调模型行为
+- **实时流式对话**：支持流式输出和实时显示
+- **对话历史管理**：自动保存和管理对话上下文
+- **配置管理**：可保存和加载对话配置
 
 ### 特色功能
 
@@ -267,25 +267,6 @@ python main.py chat
 3. **命令系统**：支持`/help`、`/config`、`/clear`等命令
 4. **会话管理**：可以保存和加载对话记录
 
-## 🔧 如何上传到GitHub
-
-详细的GitHub上传指南请参考：[GitHub上传指南](github_upload_guide.md)
-
-### 快速上传步骤
-
-1. 安装Git：从 https://git-scm.com/download/win 下载
-2. 配置Git用户信息：
-   ```bash
-   git config --global user.name "你的姓名"
-   git config --global user.email "你的邮箱"
-   ```
-3. 初始化并上传：
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: DeepSeek LangChain Integration"
-   git remote add origin https://github.com/你的用户名/你的仓库名.git
-   git push -u origin main
    ```
 
 ## 许可证
